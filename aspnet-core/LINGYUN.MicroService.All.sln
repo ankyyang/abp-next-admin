@@ -634,8 +634,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.IdentityServer.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.OpenIddict.WeChat.Work", "modules\openIddict\LINGYUN.Abp.OpenIddict.WeChat.Work\LINGYUN.Abp.OpenIddict.WeChat.Work.csproj", "{2C86306D-D626-41F8-BA3C-5C9B4123CE7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.Notifications.WeChat.Work", "modules\realtime-notifications\LINGYUN.Abp.Notifications.WeChat.Work\LINGYUN.Abp.Notifications.WeChat.Work.csproj", "{2DC43D15-F20F-44EC-B3A3-47BD8BBB50CA}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.Identity.WeChat.Work", "framework\wechat\LINGYUN.Abp.Identity.WeChat.Work\LINGYUN.Abp.Identity.WeChat.Work.csproj", "{3E32DBDA-1C63-42B4-85D1-E84BBD072D89}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nexus", "nexus", "{87CE2F0B-0469-4C76-B325-00EA7AB94B99}"
@@ -717,6 +715,38 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.TaskManagement.Application.Contracts", "modules\task-management\LINGYUN.Abp.TaskManagement.Application.Contracts\LINGYUN.Abp.TaskManagement.Application.Contracts.csproj", "{61F0EEB2-5ED0-4809-8EF9-0676C7A680CE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.TaskManagement.HttpApi.Client", "modules\task-management\LINGYUN.Abp.TaskManagement.HttpApi.Client\LINGYUN.Abp.TaskManagement.HttpApi.Client.csproj", "{72D54834-7ADF-4B18-A745-FCBBC255073B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mvc", "mvc", "{0EA1C6A8-649A-4076-9C03-5ABB673C4026}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.AspNetCore.Mvc.Wrapper", "..\..\WebProjects\abp-next-admin\aspnet-core\framework\mvc\LINGYUN.Abp.AspNetCore.Mvc.Wrapper\LINGYUN.Abp.AspNetCore.Mvc.Wrapper.csproj", "{93CF24F6-C9AC-484D-91F4-8B7D82B1A34E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.WeChat.Work.Common", "..\..\WebProjects\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Work.Common\LINGYUN.Abp.WeChat.Work.Common.csproj", "{0AC9CF12-12A1-4FD7-9B97-A19034D0B8DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.AspNetCore.Wrapper", "..\..\WebProjects\abp-next-admin\aspnet-core\framework\common\LINGYUN.Abp.AspNetCore.Wrapper\LINGYUN.Abp.AspNetCore.Wrapper.csproj", "{AD0F877C-A2E8-4BC3-A4BA-A2A62F323C3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.BackgroundTasks.Quartz", "..\..\WebProjects\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.Quartz\LINGYUN.Abp.BackgroundTasks.Quartz.csproj", "{3B07AA0F-77FE-4824-9466-859FE7657A04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.BackgroundTasks.ExceptionHandling", "..\..\WebProjects\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.csproj", "{BAC8C1ED-D43D-41FD-AAE7-E69A30BA1FC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.BackgroundTasks.DistributedLocking", "..\..\WebProjects\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.DistributedLocking\LINGYUN.Abp.BackgroundTasks.DistributedLocking.csproj", "{394AF7B6-C349-42B7-A6E7-624987CEC91B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.TaskManagement.EntityFrameworkCore", "..\..\WebProjects\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.TaskManagement.EntityFrameworkCore\LINGYUN.Abp.TaskManagement.EntityFrameworkCore.csproj", "{81DA1267-7347-4CE8-8A6B-C8C4DDD10724}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.BackgroundTasks", "..\..\WebProjects\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks\LINGYUN.Abp.BackgroundTasks.csproj", "{77BDE790-CBFE-4B28-9F22-0FB2BEBD8999}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.Wrapper", "..\..\WebProjects\abp-next-admin\aspnet-core\framework\common\LINGYUN.Abp.Wrapper\LINGYUN.Abp.Wrapper.csproj", "{833A4F68-3125-4D68-9F88-FF96EA9FCA8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.Notifications.WeChat.Work", "..\..\WebProjects\abp-next-admin\aspnet-core\modules\realtime-notifications\LINGYUN.Abp.Notifications.WeChat.Work\LINGYUN.Abp.Notifications.WeChat.Work.csproj", "{1D81E4AC-3E9D-4A92-8F69-B53EA2C37B27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.AspNetCore.Mvc.Idempotent", "..\..\WebProjects\abp-next-admin\aspnet-core\framework\mvc\LINGYUN.Abp.AspNetCore.Mvc.Idempotent\LINGYUN.Abp.AspNetCore.Mvc.Idempotent.csproj", "{F8962300-4D4D-4BBF-9BEF-F78D10DE7C69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.AspNetCore.Mvc.Idempotent.Wrapper", "..\..\WebProjects\abp-next-admin\aspnet-core\framework\mvc\LINGYUN.Abp.AspNetCore.Mvc.Idempotent.Wrapper\LINGYUN.Abp.AspNetCore.Mvc.Idempotent.Wrapper.csproj", "{75CC13DD-B000-49F1-8A2A-859BBBA949AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.TaskManagement.Domain.Shared", "..\..\WebProjects\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.TaskManagement.Domain.Shared\LINGYUN.Abp.TaskManagement.Domain.Shared.csproj", "{0103D5F7-0880-4194-A09B-BBCE1DC9DA89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.BackgroundTasks.Activities", "..\..\WebProjects\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.Activities\LINGYUN.Abp.BackgroundTasks.Activities.csproj", "{B71620FF-6419-4F01-9EE3-8A08983C530F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.Idempotent", "..\..\WebProjects\abp-next-admin\aspnet-core\framework\common\LINGYUN.Abp.Idempotent\LINGYUN.Abp.Idempotent.csproj", "{00B0FB5B-54AB-415B-BB8C-3DE432745332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1700,10 +1730,6 @@ Global
 		{2C86306D-D626-41F8-BA3C-5C9B4123CE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C86306D-D626-41F8-BA3C-5C9B4123CE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C86306D-D626-41F8-BA3C-5C9B4123CE7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2DC43D15-F20F-44EC-B3A3-47BD8BBB50CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DC43D15-F20F-44EC-B3A3-47BD8BBB50CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DC43D15-F20F-44EC-B3A3-47BD8BBB50CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DC43D15-F20F-44EC-B3A3-47BD8BBB50CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E32DBDA-1C63-42B4-85D1-E84BBD072D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E32DBDA-1C63-42B4-85D1-E84BBD072D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E32DBDA-1C63-42B4-85D1-E84BBD072D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -1824,6 +1850,66 @@ Global
 		{72D54834-7ADF-4B18-A745-FCBBC255073B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72D54834-7ADF-4B18-A745-FCBBC255073B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72D54834-7ADF-4B18-A745-FCBBC255073B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93CF24F6-C9AC-484D-91F4-8B7D82B1A34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CF24F6-C9AC-484D-91F4-8B7D82B1A34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CF24F6-C9AC-484D-91F4-8B7D82B1A34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CF24F6-C9AC-484D-91F4-8B7D82B1A34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC9CF12-12A1-4FD7-9B97-A19034D0B8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC9CF12-12A1-4FD7-9B97-A19034D0B8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC9CF12-12A1-4FD7-9B97-A19034D0B8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC9CF12-12A1-4FD7-9B97-A19034D0B8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0F877C-A2E8-4BC3-A4BA-A2A62F323C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0F877C-A2E8-4BC3-A4BA-A2A62F323C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0F877C-A2E8-4BC3-A4BA-A2A62F323C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0F877C-A2E8-4BC3-A4BA-A2A62F323C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B07AA0F-77FE-4824-9466-859FE7657A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B07AA0F-77FE-4824-9466-859FE7657A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B07AA0F-77FE-4824-9466-859FE7657A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B07AA0F-77FE-4824-9466-859FE7657A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC8C1ED-D43D-41FD-AAE7-E69A30BA1FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC8C1ED-D43D-41FD-AAE7-E69A30BA1FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC8C1ED-D43D-41FD-AAE7-E69A30BA1FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC8C1ED-D43D-41FD-AAE7-E69A30BA1FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394AF7B6-C349-42B7-A6E7-624987CEC91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394AF7B6-C349-42B7-A6E7-624987CEC91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394AF7B6-C349-42B7-A6E7-624987CEC91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394AF7B6-C349-42B7-A6E7-624987CEC91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DA1267-7347-4CE8-8A6B-C8C4DDD10724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DA1267-7347-4CE8-8A6B-C8C4DDD10724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DA1267-7347-4CE8-8A6B-C8C4DDD10724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DA1267-7347-4CE8-8A6B-C8C4DDD10724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BDE790-CBFE-4B28-9F22-0FB2BEBD8999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BDE790-CBFE-4B28-9F22-0FB2BEBD8999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BDE790-CBFE-4B28-9F22-0FB2BEBD8999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BDE790-CBFE-4B28-9F22-0FB2BEBD8999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833A4F68-3125-4D68-9F88-FF96EA9FCA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833A4F68-3125-4D68-9F88-FF96EA9FCA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833A4F68-3125-4D68-9F88-FF96EA9FCA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833A4F68-3125-4D68-9F88-FF96EA9FCA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D81E4AC-3E9D-4A92-8F69-B53EA2C37B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D81E4AC-3E9D-4A92-8F69-B53EA2C37B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D81E4AC-3E9D-4A92-8F69-B53EA2C37B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D81E4AC-3E9D-4A92-8F69-B53EA2C37B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8962300-4D4D-4BBF-9BEF-F78D10DE7C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8962300-4D4D-4BBF-9BEF-F78D10DE7C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8962300-4D4D-4BBF-9BEF-F78D10DE7C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8962300-4D4D-4BBF-9BEF-F78D10DE7C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CC13DD-B000-49F1-8A2A-859BBBA949AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CC13DD-B000-49F1-8A2A-859BBBA949AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CC13DD-B000-49F1-8A2A-859BBBA949AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CC13DD-B000-49F1-8A2A-859BBBA949AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0103D5F7-0880-4194-A09B-BBCE1DC9DA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0103D5F7-0880-4194-A09B-BBCE1DC9DA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0103D5F7-0880-4194-A09B-BBCE1DC9DA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0103D5F7-0880-4194-A09B-BBCE1DC9DA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71620FF-6419-4F01-9EE3-8A08983C530F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71620FF-6419-4F01-9EE3-8A08983C530F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71620FF-6419-4F01-9EE3-8A08983C530F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71620FF-6419-4F01-9EE3-8A08983C530F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B0FB5B-54AB-415B-BB8C-3DE432745332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B0FB5B-54AB-415B-BB8C-3DE432745332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B0FB5B-54AB-415B-BB8C-3DE432745332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B0FB5B-54AB-415B-BB8C-3DE432745332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2129,7 +2215,6 @@ Global
 		{CC07A6C2-CD79-4A1E-BE65-C6444AC89C2C} = {DD9BE9E7-F6BF-4869-BCD2-82F5072BDA21}
 		{DEDB69A9-657F-4B8B-81A7-4ADB19664F35} = {0439B173-F41E-4CE0-A44A-CCB70328F272}
 		{2C86306D-D626-41F8-BA3C-5C9B4123CE7D} = {83E698F6-F8CD-4604-AB80-01A203389501}
-		{2DC43D15-F20F-44EC-B3A3-47BD8BBB50CA} = {DD9BE9E7-F6BF-4869-BCD2-82F5072BDA21}
 		{3E32DBDA-1C63-42B4-85D1-E84BBD072D89} = {DD9BE9E7-F6BF-4869-BCD2-82F5072BDA21}
 		{87CE2F0B-0469-4C76-B325-00EA7AB94B99} = {C5CAD011-DF84-4914-939C-0C029DCEF26F}
 		{34987F45-8234-428C-AB41-783D42295C32} = {87CE2F0B-0469-4C76-B325-00EA7AB94B99}
@@ -2170,6 +2255,22 @@ Global
 		{1E00BE51-A1AE-447D-B6E0-F28EC12B259A} = {77ED7922-BF30-4436-8A85-78F812583913}
 		{61F0EEB2-5ED0-4809-8EF9-0676C7A680CE} = {77ED7922-BF30-4436-8A85-78F812583913}
 		{72D54834-7ADF-4B18-A745-FCBBC255073B} = {77ED7922-BF30-4436-8A85-78F812583913}
+		{0EA1C6A8-649A-4076-9C03-5ABB673C4026} = {C5CAD011-DF84-4914-939C-0C029DCEF26F}
+		{93CF24F6-C9AC-484D-91F4-8B7D82B1A34E} = {0EA1C6A8-649A-4076-9C03-5ABB673C4026}
+		{0AC9CF12-12A1-4FD7-9B97-A19034D0B8DE} = {DD9BE9E7-F6BF-4869-BCD2-82F5072BDA21}
+		{AD0F877C-A2E8-4BC3-A4BA-A2A62F323C3F} = {8AC72641-30D3-4ACF-89FA-808FADC55C2E}
+		{3B07AA0F-77FE-4824-9466-859FE7657A04} = {77ED7922-BF30-4436-8A85-78F812583913}
+		{BAC8C1ED-D43D-41FD-AAE7-E69A30BA1FC8} = {77ED7922-BF30-4436-8A85-78F812583913}
+		{394AF7B6-C349-42B7-A6E7-624987CEC91B} = {77ED7922-BF30-4436-8A85-78F812583913}
+		{81DA1267-7347-4CE8-8A6B-C8C4DDD10724} = {77ED7922-BF30-4436-8A85-78F812583913}
+		{77BDE790-CBFE-4B28-9F22-0FB2BEBD8999} = {77ED7922-BF30-4436-8A85-78F812583913}
+		{833A4F68-3125-4D68-9F88-FF96EA9FCA8F} = {8AC72641-30D3-4ACF-89FA-808FADC55C2E}
+		{1D81E4AC-3E9D-4A92-8F69-B53EA2C37B27} = {1A23BB7F-1839-4204-88C5-7E9A6C9FBF1E}
+		{F8962300-4D4D-4BBF-9BEF-F78D10DE7C69} = {0EA1C6A8-649A-4076-9C03-5ABB673C4026}
+		{75CC13DD-B000-49F1-8A2A-859BBBA949AA} = {0EA1C6A8-649A-4076-9C03-5ABB673C4026}
+		{0103D5F7-0880-4194-A09B-BBCE1DC9DA89} = {77ED7922-BF30-4436-8A85-78F812583913}
+		{B71620FF-6419-4F01-9EE3-8A08983C530F} = {77ED7922-BF30-4436-8A85-78F812583913}
+		{00B0FB5B-54AB-415B-BB8C-3DE432745332} = {8AC72641-30D3-4ACF-89FA-808FADC55C2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C95FDF91-16F2-4A8B-A4BE-0E62D1B66718}

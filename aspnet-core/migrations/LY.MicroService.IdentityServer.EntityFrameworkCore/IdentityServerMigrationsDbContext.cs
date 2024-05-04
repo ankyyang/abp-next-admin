@@ -6,7 +6,7 @@ using Volo.Abp.IdentityServer.EntityFrameworkCore;
 
 namespace LY.MicroService.IdentityServer.EntityFrameworkCore;
 
-[ConnectionStringName("IdentityServerDbMigrator")]
+[ConnectionStringName("AbpIdentityServer")]
 public class IdentityServerMigrationsDbContext : AbpDbContext<IdentityServerMigrationsDbContext>
 {
     public IdentityServerMigrationsDbContext(DbContextOptions<IdentityServerMigrationsDbContext> options)

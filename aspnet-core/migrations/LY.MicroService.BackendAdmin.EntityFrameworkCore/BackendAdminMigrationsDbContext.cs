@@ -9,7 +9,7 @@ using Volo.Abp.SettingManagement.EntityFrameworkCore;
 
 namespace LY.MicroService.BackendAdmin.EntityFrameworkCore;
 
-[ConnectionStringName("BackendAdminDbMigrator")]
+[ConnectionStringName("Default")]
 public class BackendAdminMigrationsDbContext : AbpDbContext<BackendAdminMigrationsDbContext>
 {
     public BackendAdminMigrationsDbContext(DbContextOptions<BackendAdminMigrationsDbContext> options)

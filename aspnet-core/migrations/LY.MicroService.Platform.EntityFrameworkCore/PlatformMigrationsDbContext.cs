@@ -5,7 +5,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace LY.MicroService.Platform.EntityFrameworkCore;
 
-[ConnectionStringName("PlatformDbMigrator")]
+[ConnectionStringName("Default")]
 public class PlatformMigrationsDbContext : AbpDbContext<PlatformMigrationsDbContext>
 {
     public PlatformMigrationsDbContext(DbContextOptions<PlatformMigrationsDbContext> options)

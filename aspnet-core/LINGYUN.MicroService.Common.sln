@@ -323,6 +323,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.Notifications.W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.Notifications.WeChat.MiniProgram", "modules\realtime-notifications\LINGYUN.Abp.Notifications.WeChat.MiniProgram\LINGYUN.Abp.Notifications.WeChat.MiniProgram.csproj", "{2C01C5C9-F762-4455-AD66-810BEFEE67B5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGYUN.Abp.WeChat.Work", "..\..\WebProjects\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Work\LINGYUN.Abp.WeChat.Work.csproj", "{57AA145B-E30E-48CF-B2F7-40D6B772ED79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -825,6 +827,10 @@ Global
 		{2C01C5C9-F762-4455-AD66-810BEFEE67B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C01C5C9-F762-4455-AD66-810BEFEE67B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C01C5C9-F762-4455-AD66-810BEFEE67B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AA145B-E30E-48CF-B2F7-40D6B772ED79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AA145B-E30E-48CF-B2F7-40D6B772ED79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AA145B-E30E-48CF-B2F7-40D6B772ED79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AA145B-E30E-48CF-B2F7-40D6B772ED79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -981,6 +987,7 @@ Global
 		{57FCECAF-11F0-46C8-A74B-55C7AE76E8FE} = {A1C75C3E-67D1-4BCE-89BF-44A735909BD5}
 		{7433B116-806E-4500-8FF8-6143C4140BFD} = {7862CE70-76EF-4228-A703-C2E2A9704D14}
 		{2C01C5C9-F762-4455-AD66-810BEFEE67B5} = {22C61434-D29A-4376-AD56-F5089F3E617A}
+		{57AA145B-E30E-48CF-B2F7-40D6B772ED79} = {22C61434-D29A-4376-AD56-F5089F3E617A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06C707C6-02C0-411A-AD3B-2D0E13787CB8}

@@ -6,7 +6,7 @@ using Volo.Abp.OpenIddict.EntityFrameworkCore;
 
 namespace LY.MicroService.AuthServer.EntityFrameworkCore;
 
-[ConnectionStringName("AuthServerDbMigrator")]
+[ConnectionStringName("AbpIdentityServer")]
 public class AuthServerMigrationsDbContext : AbpDbContext<AuthServerMigrationsDbContext>
 {
     public AuthServerMigrationsDbContext(DbContextOptions<AuthServerMigrationsDbContext> options)

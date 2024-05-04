@@ -1,7 +1,7 @@
 @echo off
 cls
 title start-all
-set stime=12
+set stime=30
 for /f "delims=" %%i in ('dir *.bat /b') do (
     echo %%i
     start %%i

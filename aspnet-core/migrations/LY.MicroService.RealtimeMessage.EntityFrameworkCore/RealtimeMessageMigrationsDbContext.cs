@@ -6,7 +6,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace LY.MicroService.RealtimeMessage.EntityFrameworkCore;
 
-[ConnectionStringName("RealtimeMessageDbMigrator")]
+[ConnectionStringName("Default")]
 public class RealtimeMessageMigrationsDbContext : AbpDbContext<RealtimeMessageMigrationsDbContext>
 {
     public RealtimeMessageMigrationsDbContext(DbContextOptions<RealtimeMessageMigrationsDbContext> options)

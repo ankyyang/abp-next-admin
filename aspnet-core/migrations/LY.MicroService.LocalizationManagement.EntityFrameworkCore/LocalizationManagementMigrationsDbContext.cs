@@ -5,7 +5,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace LY.MicroService.LocalizationManagement.EntityFrameworkCore;
 
-[ConnectionStringName("LocalizationManagementDbMigrator")]
+[ConnectionStringName("AbpLocalizationManagement")]
 public class LocalizationManagementMigrationsDbContext : AbpDbContext<LocalizationManagementMigrationsDbContext>
 {
     public LocalizationManagementMigrationsDbContext(DbContextOptions<LocalizationManagementMigrationsDbContext> options)

@@ -46,6 +46,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\WebProjects\abp-next-admin\aspnet-core\modules\realtime-notifications\LINGYUN.Abp.Notifications.WeChat.Work\LINGYUN.Abp.Notifications.WeChat.Work.csproj" />
 		<ProjectReference Include="..\..\framework\auditing\LINGYUN.Abp.AuditLogging.Elasticsearch\LINGYUN.Abp.AuditLogging.Elasticsearch.csproj" />
 		<ProjectReference Include="..\..\framework\authorization\LINGYUN.Abp.Authorization.OrganizationUnits\LINGYUN.Abp.Authorization.OrganizationUnits.csproj" />
 		<ProjectReference Include="..\..\framework\common\LINGYUN.Abp.AspNetCore.HttpOverrides\LINGYUN.Abp.AspNetCore.HttpOverrides.csproj" />
@@ -75,7 +76,6 @@
 		<ProjectReference Include="..\..\modules\realtime-notifications\LINGYUN.Abp.Notifications.SignalR\LINGYUN.Abp.Notifications.SignalR.csproj" />
 		<ProjectReference Include="..\..\modules\realtime-notifications\LINGYUN.Abp.Notifications.Sms\LINGYUN.Abp.Notifications.Sms.csproj" />
 		<ProjectReference Include="..\..\modules\realtime-notifications\LINGYUN.Abp.Notifications.WeChat.MiniProgram\LINGYUN.Abp.Notifications.WeChat.MiniProgram.csproj" />
-		<ProjectReference Include="..\..\modules\realtime-notifications\LINGYUN.Abp.Notifications.WeChat.Work\LINGYUN.Abp.Notifications.WeChat.Work.csproj" />
 		<ProjectReference Include="..\..\modules\realtime-notifications\LINGYUN.Abp.Notifications.WxPusher\LINGYUN.Abp.Notifications.WxPusher.csproj" />
 		<ProjectReference Include="..\..\modules\task-management\LINGYUN.Abp.BackgroundTasks.Quartz\LINGYUN.Abp.BackgroundTasks.Quartz.csproj" />
 		<ProjectReference Include="..\..\modules\task-management\LINGYUN.Abp.BackgroundTasks.DistributedLocking\LINGYUN.Abp.BackgroundTasks.DistributedLocking.csproj" />
